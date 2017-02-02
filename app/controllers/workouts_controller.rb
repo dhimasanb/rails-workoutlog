@@ -27,4 +27,13 @@ class WorkoutsController < ApplicationController
   def destroy
   end
 
+  private
+
+  def workout_params
+    params.require(:workout).permit(:date, :workout, :mood, :length)
+  end
+
+  def find_workout
+  end
+
 end
