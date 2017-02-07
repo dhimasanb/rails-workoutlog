@@ -1,4 +1,4 @@
-# Rails Recipe Box
+# Rails Workout Log
 
 Simple Web Workout Log based on Rails 5 with SQLite & Haml Template Engine
 
